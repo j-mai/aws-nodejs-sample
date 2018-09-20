@@ -12,7 +12,7 @@ dependencies (including the AWS SDK for Node.js) can be installed with:
 ## Basic Configuration
 
 You need to set up your AWS security credentials before the sample code is able
-to connect to AWS. You can do this by creating a file named "credentials" at ~/.aws/ 
+to connect to AWS. You can do this by creating a file named "credentials" at ~/.aws/
 (C:\Users\USER_NAME\.aws\ for Windows users) and saving the following lines in the file:
 
     [default]
@@ -40,3 +40,16 @@ for when you start making your own buckets.
 This sample application is distributed under the
 [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
+## Tutorial
+Starting AWS SDK template forked from aws-samples
+Based on tutorial at https://medium.com/@anaptfox/getting-started-with-amazon-polly-using-node-js-345e84dbd23d
+
+## Attempt to Build
+For this project, I just attempted to better understand how to start using Amazon Polly. This tutorial
+taught me how to use Node.js to convert speech to text and how to automatically play that through my computer's
+speakers.
+
+## What I learned
+Started to better understand how Amazon Polly works. Also learned how to set up the credentials for the aws-sdk to access.
+
+## What didn't work
